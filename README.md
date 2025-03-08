@@ -1,7 +1,7 @@
-# VineyardLogits_Sigmoid
+# dataset_vineyardLogits_sigmoid
 
 ## Overview
-The **VineyardLogits_Sigmoid** dataset is a collection of logits and labels used for training and testing deep learning models in the field of precision agriculture. **All models were trained for a binary classification task, using a single class and the sigmoid activation function** to output probabilities. This ensures that the models are optimized for distinguishing between vine plants and background elements in the images.
+The **dataset_vineyardLogits_sigmoid** dataset is a collection of logits and labels used for training and testing deep learning models in the field of precision agriculture. **All models were trained for a binary classification task, using a single class and the sigmoid activation function** to output probabilities. This ensures that the models are optimized for distinguishing between vine plants and background elements in the images.
 
 ## Hyperparameters 
 
@@ -21,7 +21,7 @@ These hyperparameters were chosen to strike a balance between training stability
 ## Dataset Structure
 
 ```plaintext
-VINEYARDLOGITS_SIGMOID 
+dataset_vineyardLogits_sigmoid
 ├── deeplab_EARLY_FUSION_fold_1
 ├── deeplab_EARLY_FUSION_fold_2
 ├── deeplab_EARLY_FUSION_fold_3
@@ -64,7 +64,7 @@ VINEYARDLOGITS_SIGMOID
 To use the weights in your model, follow these steps:
 
 ```bash
-git clone https://github.com/wilgomoreira/VineyardLogits_Sigmoid.git
+git clone https://github.com/wilgomoreira/dataset_vineyardLogits_sigmoid.git
 ```
 
 ## License
